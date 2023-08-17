@@ -11,3 +11,86 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(250, 251, 251);
+  display: grid;
+  place-content: center;
+}
+
+.weather{
+  width: 23rem;
+  height: 32rem;
+  background-color: rgb(39, 65, 114);
+  border-radius: 10px;
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.search-input{
+  width: 40%;
+  height: 25px;
+  border: none;
+  border-bottom: 2px solid rgb(250, 247, 247);
+  background: transparent;
+  color: #fff;
+  outline: none;
+}
+.search-input ::placeholder{
+  color: #fff;
+}
+
+.search-icon{
+  height: 30px;
+  font-size: large;
+  color: #000000;
+  background: #fff;
+  border-radius: 50%;
+  border: 1px solid #000000;
+}
+.search-icon:hover{
+  border: 1px solid #ffffff;
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.weather-condition{
+   width: 100%;
+   height: 40%;
+   margin: 0;
+   color: #fff;
+   display: grid;
+   place-content: center;
+}
+
+.fa-cloud{
+  font-size: 5rem;
+}
+
+.condition{
+  color: #fff;
+  font-size: 60px;
+}
+
+.weather-data{
+  width: 100%;
+  display: grid;
+  place-content: center;
+  color: #fff;
+}
+.fa-street-view{
+  font-size: 40px;
+}
+
+.nodata{
+  text-align: center;
+  color: #fff;
+}
